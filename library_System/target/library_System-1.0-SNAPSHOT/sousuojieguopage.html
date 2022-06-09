@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <link rel="shortcut icon" href="img/touxiang.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="js/jquery-3.2.1.min.js" ></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .huanying{
+            font-family: SimHei,Microsoft YaHei,"Lucida Calligraphy";
+        }
+        .zhuti{
+            color: #946b2f;
+        }
+        .zhutib{
+            background-color: #946b2f;
+        }
+        .wh{
+            color: white;
+        }
+        .xianshitushuxinxi{
+            width: 350px;
+            padding-left: 20px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid zhutib">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.jsp">
+                    <img src="img/p.png" class="img-circle" style="height: 100%">
+                </a>
+                <div style="float: right;padding-top: 8px"><a class="btn zhutib wh" href="index.jsp" role="button">木对图书馆</a></div>
+            </div>
+            <div class="text-right">
+                <a type="button" class="btn wh navbar-btn zhutib" href="login.jsp">登录</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div>
+    <h1 class="text-center huanying zhuti">欢迎进入木对图书管理系统</h1>
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="搜索图书">
+                <span class="input-group-btn">
+                             <button class="btn zhutib wh" type="button">搜索</button>
+                        </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+        <div class="col-lg-3"></div>
+    </div><!-- /.row -->
+</div>
+<div class="xianshitushuxinxi zhuti" >
+    <nav aria-label="Page navigation">
+
+        <div class="media" style="margin-left:10px;margin-top: 10px">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="img/book.png" alt="..." style="width: 100px">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">《皮卡丘集1》</h4>
+                简介：皮卡丘真萌
+            </div>
+        </div>
+        <div class="media" style="margin-left:10px;margin-top: 10px">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="img/book.png" alt="..." style="width: 100px">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">《皮卡丘集1》</h4>
+                简介：皮卡丘真萌
+            </div>
+        </div>
+        <div class="media" style="margin-left:10px;margin-top: 10px">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="img/book.png" alt="..." style="width: 100px">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">《皮卡丘集1》</h4>
+                简介：真猛
+            </div>
+        </div>
+        <ul class="pagination zhutib">
+            <li>
+                <a href="#" aria-label="Previous"  style="color: #946b2f">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li><a href="#" style="color: #946b2f">1</a></li>
+            <li><a href="#" style="color: #946b2f">2</a></li>
+            <li><a href="#" style="color: #946b2f">3</a></li>
+            <li><a href="#" style="color: #946b2f">4</a></li>
+            <li><a href="#" style="color: #946b2f">5</a></li>
+            <li>
+                <a href="#" aria-label="Next"  style="color: #946b2f">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+</body>
+</html>

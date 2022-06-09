@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <link rel="shortcut icon" href="img/touxiang.png">
+    <title>木对图书管理系统</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="js/jquery-3.2.1.min.js" ></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .zhuti{
+            color: #946b2f;
+        }
+        .zhutib{
+            background-color: #946b2f;
+        }
+        .wh{
+            color: white;
+        }
+        .sjxxwz{
+            margin-top: 50px;
+            margin-left: 200px;
+        }
+        .jieyueanniu{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .fg{
+            border-bottom: 2px solid #946b2f;
+            padding: 5px;
+            color: #946b2f;
+            width: 1250px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        .fg2{
+            border-bottom: 1px solid #946b2f;
+            padding: 5px;
+            color: #946b2f;
+            width: 1200px;
+            margin: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid zhutib">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.jsp">
+                    <img src="img/book.png" class="img-circle" style="height: 100%">
+                </a>
+                <div style="float: right;padding-top: 8px"><a class="btn zhutib wh" href="index.jsp" role="button">木对图书馆</a></div>
+            </div>
+            <div class="text-right">
+                <a type="button" class="btn wh navbar-btn zhutib" href="login.jsp">登录</a>
+            </div>
+        </div>
+    </nav>
+
+</div>
+<div class="sjxxwz">
+    <div class="media" style="margin-left:10px;margin-top: 10px">
+        <div class="media-left">
+            <a href="#">
+                <img class="media-object" src="img/book.png" alt="..." style="width: 150px">
+            </a>
+        </div>
+        <div class="media-body zhuti">
+            <h4 class="media-heading">《皮卡丘集2》</h4>
+            <div style="width: 400px">简介：皮卡丘真萌</div>
+        </div>
+    </div>
+    <div class="jieyueanniu"><a class="btn zhutib wh" href="#" role="button">借阅/还书</a></div>
+</div>
+<div>
+    <div class="row fg" >评论</div>
+    <div class="fg2">
+        <div class="media" style="margin-left:10px;margin-top: 10px">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object img-circle" src="img/user.png" alt="..." style="width:30px">
+                </a>
+            </div>
+
+            <div class="media-body zhuti" style="padding-top: 5px"> <h4 class="media-heading">读者1024</h4>
+            </div>
+            <div style="width: 400px;margin-left: 10px;padding-top: 10px">皮卡丘真萌</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
